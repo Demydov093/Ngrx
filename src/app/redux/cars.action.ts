@@ -12,6 +12,7 @@ export class AddCar implements Action {
   readonly type = CAR_ACTION.ADD_CAR;
 
   constructor(public payload: Car) {}
+
 }
 
 export class DeleteCar implements Action {
